@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/exchange_rate_fragment"
+        android:enabled="true"
+        android:icon="@drawable/exchange_rates_icon"
+        android:title="@string/exchange_rates" />
+    <item
+        android:id="@+id/currency_conversion_fragment"
+        android:icon="@drawable/currency_conversion_icon"
+        android:title="@string/currency_conversion" />
+</menu>
