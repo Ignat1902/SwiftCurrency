@@ -33,7 +33,6 @@ class ExchangeRateFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        viewModel.getLatestExchangeRate()
         _binding = FragmentExchangeRateBinding.inflate(inflater, container, false)
         return binding.root
     }
